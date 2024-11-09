@@ -1,0 +1,10 @@
+a=int(input())
+b=str(a)
+c=len(b)
+result=0
+for i in range(c):
+    result=result+(int(b[i])**c)
+if result==a:
+    print(str(a)+" is armstrong")
+else:
+    print(str(a)+" is not armstrong")
