@@ -1,0 +1,7 @@
+a=int(input())
+b=str(a)
+c=len(b)
+sum=0
+for i in range(c):
+    sum=sum+int(b[i])
+print(sum)
