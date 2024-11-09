@@ -1,0 +1,10 @@
+a=input()
+b=input()
+b1=list(map(str,a))
+b2=list(map(str,b))
+b1.sort()
+b2.sort()
+if b1==b2:
+    print("both are anagram")
+else:
+    print("both are not anagram")
